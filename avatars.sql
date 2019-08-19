@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-08-2019 a las 05:32:47
--- Versión del servidor: 10.1.39-MariaDB
+-- Tiempo de generación: 20-08-2019 a las 00:07:52
+-- Versión del servidor: 10.1.40-MariaDB
 -- Versión de PHP: 7.3.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -30,28 +30,27 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `avatars` (
   `id` bigint(20) UNSIGNED NOT NULL,
-  `url` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `code` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `url` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `avatars`
 --
 
-INSERT INTO `avatars` (`id`, `url`, `code`, `created_at`, `updated_at`) VALUES
-(1, '/img/Avatars/chicaCorto.jpg', 'cc', NULL, NULL),
-(2, '/img/Avatars/chicaCortoM.jpg', 'ccm', NULL, NULL),
-(3, '/img/Avatars/chicaLargo.jpg', 'cl', NULL, NULL),
-(4, '/img/Avatars/conBarba.jpg', 'cb', NULL, NULL),
-(5, '/img/Avatars/gatoNaranja.jpg', 'gn', NULL, NULL),
-(6, '/img/Avatars/pelaM,jpg', 'pm', NULL, NULL),
-(7, '/img/Avatars/perro1.jpg', 'p1', NULL, NULL),
-(8, '/img/Avatars/señor.jpg', 'sr', NULL, NULL),
-(9, '/img/Avatars/señora.jpg', 'sra', NULL, NULL),
-(10, '/img/Avatars/sinBarba.jpg', 'sb', NULL, NULL),
-(11, '/img/Avatars/sinBarbaM.jpg', 'sbm', NULL, NULL);
+INSERT INTO `avatars` (`id`, `created_at`, `updated_at`, `url`) VALUES
+(1, NULL, NULL, '/img/Avatars/chicaCorto.jpg'),
+(2, NULL, NULL, '/img/Avatars/chicaCortoM.jpg'),
+(3, NULL, NULL, '/img/Avatars/chicaLargo.jpg'),
+(4, NULL, NULL, '/img/Avatars/conBarba.jpg'),
+(5, NULL, NULL, '/img/Avatars/gatoNaranja.jpg'),
+(6, NULL, NULL, '/img/Avatars/pelaM.jpg'),
+(7, NULL, NULL, '/img/Avatars/perro1.jpg'),
+(8, NULL, NULL, '/img/Avatars/señor.jpg'),
+(9, NULL, NULL, '/img/Avatars/señora.jpg'),
+(10, NULL, NULL, '/img/Avatars/sinBarba.jpg'),
+(11, NULL, NULL, '/img/Avatars/sinBarbaM.jpg');
 
 --
 -- Índices para tablas volcadas
@@ -71,7 +70,7 @@ ALTER TABLE `avatars`
 -- AUTO_INCREMENT de la tabla `avatars`
 --
 ALTER TABLE `avatars`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
