@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-08-2019 a las 00:07:52
+-- Tiempo de generación: 21-08-2019 a las 01:50:37
 -- Versión del servidor: 10.1.40-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -50,7 +50,9 @@ INSERT INTO `avatars` (`id`, `created_at`, `updated_at`, `url`) VALUES
 (8, NULL, NULL, '/img/Avatars/señor.jpg'),
 (9, NULL, NULL, '/img/Avatars/señora.jpg'),
 (10, NULL, NULL, '/img/Avatars/sinBarba.jpg'),
-(11, NULL, NULL, '/img/Avatars/sinBarbaM.jpg');
+(11, NULL, NULL, '/img/Avatars/sinBarbaM.jpg'),
+(12, NULL, NULL, '/img/Avatars/chicoLargo.jpg'),
+(13, NULL, NULL, '/img/Avatars/perro2.jpg');
 
 --
 -- Índices para tablas volcadas
@@ -70,7 +72,7 @@ ALTER TABLE `avatars`
 -- AUTO_INCREMENT de la tabla `avatars`
 --
 ALTER TABLE `avatars`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
