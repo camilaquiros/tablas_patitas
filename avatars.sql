@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-08-2019 a las 01:50:37
+-- Tiempo de generación: 22-08-2019 a las 23:01:09
 -- Versión del servidor: 10.1.40-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -40,19 +40,19 @@ CREATE TABLE `avatars` (
 --
 
 INSERT INTO `avatars` (`id`, `created_at`, `updated_at`, `url`) VALUES
-(1, NULL, NULL, '/img/Avatars/chicaCorto.jpg'),
-(2, NULL, NULL, '/img/Avatars/chicaCortoM.jpg'),
-(3, NULL, NULL, '/img/Avatars/chicaLargo.jpg'),
-(4, NULL, NULL, '/img/Avatars/conBarba.jpg'),
-(5, NULL, NULL, '/img/Avatars/gatoNaranja.jpg'),
-(6, NULL, NULL, '/img/Avatars/pelaM.jpg'),
-(7, NULL, NULL, '/img/Avatars/perro1.jpg'),
-(8, NULL, NULL, '/img/Avatars/señor.jpg'),
-(9, NULL, NULL, '/img/Avatars/señora.jpg'),
-(10, NULL, NULL, '/img/Avatars/sinBarba.jpg'),
-(11, NULL, NULL, '/img/Avatars/sinBarbaM.jpg'),
-(12, NULL, NULL, '/img/Avatars/chicoLargo.jpg'),
-(13, NULL, NULL, '/img/Avatars/perro2.jpg');
+(1, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'gatoNaranja.jpg'),
+(2, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'señora.jpg'),
+(3, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'sinBarba.jpg'),
+(4, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'perro1.jpg'),
+(5, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'sinBarbaM.jpg'),
+(6, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'chicoLargo.jpg'),
+(7, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'chicaLargo.jpg'),
+(8, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'señor.jpg'),
+(9, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'pelaM.jpg'),
+(10, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'chicaCorto.jpg'),
+(11, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'chicaCortoM.jpg'),
+(12, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'conBarba.jpg'),
+(13, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'perro2.jpg');
 
 --
 -- Índices para tablas volcadas

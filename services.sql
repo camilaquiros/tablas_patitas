@@ -1,9 +1,13 @@
--- phpMyAdmin SQL Dump
+﻿-- phpMyAdmin SQL Dump
 -- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
+<<<<<<< HEAD
 -- Tiempo de generación: 25-08-2019 a las 00:07:55
+=======
+-- Tiempo de generación: 22-08-2019 a las 19:35:12
+>>>>>>> c9a02be607afeea6254810160975dc8b36969ee3
 -- Versión del servidor: 10.1.40-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -31,6 +35,10 @@ SET time_zone = "+00:00";
 CREATE TABLE `services` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+<<<<<<< HEAD
+=======
+  `description` text COLLATE utf8mb4_unicode_ci NOT NULL,
+>>>>>>> c9a02be607afeea6254810160975dc8b36969ee3
   `longDescription` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -46,6 +54,7 @@ INSERT INTO `services` (`id`, `name`, `longDescription`, `created_at`, `updated_
 (2, 'Estudios especiales', 'La tecnología avanza cada día más y esto nos permite tener un diagnóstico veterinario mas especifico por cada uno de los pacientes. Contamos con los equipos necesarios del laboratorio de análisis clínicos y patológicos, cardiología, rayos X y ecografía, y así poder brindar una atención completa y única para su mascota. ', '2019-08-21 17:17:00', '2019-08-21 17:17:00', 'estudios.jpg'),
 (3, 'Entrenador personal para tu mascota', 'Creemos que el vínculo con tu perro es fundamental por eso vamos a trabajar juntos para que seas vos quien realmente aprenda a conectar correctamente con tu perro.\r\nEn estos años hemos entrenado muchísimos perros y cada uno es un nuevo desafío. Por eso estamos convencidos que podemos ayudarte a vos y a tu perro a lograr el equilibrio que necesitan.\r\nConsulta en nuestras oficinas o llamanos al 0810-220-8383 (vete).', '2019-08-21 17:17:00', '2019-08-21 17:17:00', 'entrenamiento.jpg'),
 (4, 'Peluqueria Canina', 'La peluquería no es sólo una cuestión de higiene o belleza: es una excelente oportunidad para que podamos cuidar a tu perro.\r\nRealizamos servicio de Baño, corte de razas, corte de uñas.\r\nAdemás utilizamos productos de primera calidad y específicos cómo pulguicidas, hipoalergénicos, para piel sensible, perfumados, etc… Contactános al 0810-220-8383 (vete) y agendamos tu turno.', '2019-08-21 17:17:00', '2019-08-21 17:17:00', 'peluqueriaCanina.jpg');
+
 
 --
 -- Índices para tablas volcadas
