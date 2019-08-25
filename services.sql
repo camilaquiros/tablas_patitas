@@ -3,11 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
-<<<<<<< HEAD
 -- Tiempo de generación: 25-08-2019 a las 00:07:55
-=======
 -- Tiempo de generación: 22-08-2019 a las 19:35:12
->>>>>>> c9a02be607afeea6254810160975dc8b36969ee3
 -- Versión del servidor: 10.1.40-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -35,10 +32,6 @@ SET time_zone = "+00:00";
 CREATE TABLE `services` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-<<<<<<< HEAD
-=======
-  `description` text COLLATE utf8mb4_unicode_ci NOT NULL,
->>>>>>> c9a02be607afeea6254810160975dc8b36969ee3
   `longDescription` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
