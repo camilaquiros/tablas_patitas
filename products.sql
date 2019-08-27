@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-08-2019 a las 16:56:40
--- Versión del servidor: 10.1.39-MariaDB
+-- Tiempo de generación: 28-08-2019 a las 00:20:44
+-- Versión del servidor: 10.1.40-MariaDB
 -- Versión de PHP: 7.3.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -87,7 +87,10 @@ INSERT INTO `products` (`id`, `title`, `image`, `description`, `price`, `offer`,
 (38, 'Collar grande antiparasitario', 'img_5d61ab2098543.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '230.00', 0, 1, 2, 3, '2019-08-25 03:24:48', '2019-08-25 03:24:48'),
 (39, 'Antiparasitario liquido', 'img_5d61ac04c25e9.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '540.00', 0, 2, 2, 4, '2019-08-25 03:28:36', '2019-08-25 03:28:36'),
 (40, 'Collar antipulgas', 'img_5d61ac952d605.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '230.00', 0, 2, 2, 3, '2019-08-25 03:31:01', '2019-08-25 03:31:01'),
-(41, 'Pipeta 0.5ml', 'img_5d61aceb38a2e.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '150.00', 0, 2, 2, 4, '2019-08-25 03:32:27', '2019-08-25 03:32:27');
+(41, 'Pipeta 0.5ml', 'img_5d61aceb38a2e.jpeg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '150.00', 0, 2, 2, 4, '2019-08-25 03:32:27', '2019-08-25 03:32:27'),
+(42, 'Guante sacapelos', 'img_5d65aa39925ef.jpeg', 'Lorem ipsum dolteor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '250.00', 0, 2, 5, 3, '2019-08-28 01:10:01', '2019-08-28 01:10:02'),
+(43, 'Piedras Sanitaria duración prolongada', 'img_5d65aae41864b.jpeg', 'Lorem ipsum dolteor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '160.00', 0, 2, 5, 5, '2019-08-28 01:12:52', '2019-08-28 01:12:52'),
+(44, 'Piedras sanitarias clásica', 'img_5d65ab5f07f8e.jpeg', 'Lorem ipsum dolteor sit amet, consectetur adipisicing elit, sed do eiusmod mpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', '130.00', 0, 2, 5, 2, '2019-08-28 01:14:54', '2019-08-28 01:14:55');
 
 --
 -- Índices para tablas volcadas
@@ -109,7 +112,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT de la tabla `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- Restricciones para tablas volcadas
