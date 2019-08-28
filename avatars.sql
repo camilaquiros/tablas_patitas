@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-08-2019 a las 23:01:09
+-- Tiempo de generación: 28-08-2019 a las 16:05:46
 -- Versión del servidor: 10.1.40-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -40,19 +40,21 @@ CREATE TABLE `avatars` (
 --
 
 INSERT INTO `avatars` (`id`, `created_at`, `updated_at`, `url`) VALUES
-(1, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'gatoNaranja.jpg'),
-(2, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'señora.jpg'),
-(3, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'sinBarba.jpg'),
-(4, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'perro1.jpg'),
-(5, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'sinBarbaM.jpg'),
-(6, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'chicoLargo.jpg'),
-(7, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'chicaLargo.jpg'),
-(8, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'señor.jpg'),
-(9, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'pelaM.jpg'),
-(10, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'chicaCorto.jpg'),
-(11, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'chicaCortoM.jpg'),
-(12, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'conBarba.jpg'),
-(13, '2019-08-22 20:43:37', '2019-08-22 20:43:37', 'perro2.jpg');
+(1, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'sinBarba.jpg'),
+(2, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'señor.jpg'),
+(3, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'chicoLargo.jpg'),
+(4, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'pelaM.jpg'),
+(5, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'gatoGris.jpg'),
+(6, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'señora.jpg'),
+(7, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'chicaCortoM.jpg'),
+(8, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'sinBarbaM.jpg'),
+(9, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'perro1.jpg'),
+(10, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'conBarba.jpg'),
+(11, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'chicaCorto.jpg'),
+(12, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'perro2.jpg'),
+(13, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'chicaColorada.jpg'),
+(14, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'chicaLargo.jpg'),
+(15, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'gatoNaranja.jpg');
 
 --
 -- Índices para tablas volcadas
@@ -72,7 +74,7 @@ ALTER TABLE `avatars`
 -- AUTO_INCREMENT de la tabla `avatars`
 --
 ALTER TABLE `avatars`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
