@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-08-2019 a las 16:06:54
--- Versión del servidor: 10.1.40-MariaDB
+-- Tiempo de generación: 29-08-2019 a las 11:50:51
+-- Versión del servidor: 10.1.39-MariaDB
 -- Versión de PHP: 7.3.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -40,21 +40,21 @@ CREATE TABLE `avatars` (
 --
 
 INSERT INTO `avatars` (`id`, `created_at`, `updated_at`, `url`) VALUES
-(1, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'sinBarba.jpg'),
-(2, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'señor.jpg'),
-(3, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'chicoLargo.jpg'),
-(4, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'pelaM.jpg'),
-(5, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'gatoGris.jpg'),
-(6, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'señora.jpg'),
-(7, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'chicaCortoM.jpg'),
-(8, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'sinBarbaM.jpg'),
-(9, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'perro1.jpg'),
-(10, '2019-08-28 16:55:28', '2019-08-28 16:55:28', 'conBarba.jpg'),
-(11, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'chicaCorto.jpg'),
-(12, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'perro2.jpg'),
-(13, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'chicaColorada.jpg'),
-(14, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'chicaLargo.jpg'),
-(15, '2019-08-28 16:55:29', '2019-08-28 16:55:29', 'gatoNaranja.jpg');
+(1, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'pelaM.jpg'),
+(2, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'chicaColorada.jpg'),
+(3, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'gatoGris.jpg'),
+(4, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'sinBarbaM.jpg'),
+(5, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'perro1.jpg'),
+(6, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'sinBarba.jpg'),
+(7, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'señora.jpg'),
+(8, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'señor.jpg'),
+(9, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'conBarba.jpg'),
+(10, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'perro2.jpg'),
+(11, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'chicaCortoM.jpg'),
+(12, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'chicaLargo.jpg'),
+(13, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'chicoLargo.jpg'),
+(14, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'gatoNaranja.jpg'),
+(15, '2019-08-29 06:50:36', '2019-08-29 06:50:36', 'chicaCorto.jpg');
 
 -- --------------------------------------------------------
 
@@ -74,8 +74,8 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id`, `name`, `created_at`, `updated_at`) VALUES
-(1, 'Perro', '2019-08-28 16:55:27', '2019-08-28 16:55:27'),
-(2, 'Gato', '2019-08-28 16:55:28', '2019-08-28 16:55:28');
+(1, 'Perro', '2019-08-29 06:50:36', '2019-08-29 06:50:36'),
+(2, 'Gato', '2019-08-29 06:50:36', '2019-08-29 06:50:36');
 
 -- --------------------------------------------------------
 
@@ -96,13 +96,9 @@ CREATE TABLE `favorites` (
 --
 
 INSERT INTO `favorites` (`id`, `created_at`, `updated_at`, `product_id`, `user_id`) VALUES
-(1, '2019-08-26 10:05:07', '2019-08-26 10:05:07', 23, 3),
-(2, '2019-08-26 10:22:24', '2019-08-26 10:22:24', 1, 3),
 (3, '2019-08-27 00:01:00', '2019-08-27 00:01:00', 1, 4),
-(4, '2019-08-27 08:35:10', '2019-08-27 08:35:10', 2, 3),
-(5, '2019-08-27 08:35:13', '2019-08-27 08:35:13', 3, 3),
-(6, '2019-08-27 08:35:17', '2019-08-27 08:35:17', 4, 3),
-(7, '2019-08-27 08:35:22', '2019-08-27 08:35:22', 5, 3);
+(11, '2019-08-29 02:18:16', '2019-08-29 02:18:16', 1, 3),
+(12, '2019-08-29 02:59:26', '2019-08-29 02:59:26', 5, 3);
 
 -- --------------------------------------------------------
 
@@ -135,7 +131,9 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (12, '2019_08_24_212702_delete_description_from_services', 2),
 (13, '2019_08_25_220336_create_favorites_table', 2),
 (14, '2019_08_26_220801_add_nullable_from_users', 3),
-(15, '2019_08_27_152651_create_pets_table', 4);
+(15, '2019_08_27_152651_create_pets_table', 4),
+(16, '2019_08_28_181553_create_roles_table', 5),
+(17, '2019_08_28_181815_create_role_user_table', 5);
 
 -- --------------------------------------------------------
 
@@ -162,6 +160,24 @@ CREATE TABLE `pets` (
   `photo` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `user_id` bigint(20) UNSIGNED DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `pets`
+--
+
+INSERT INTO `pets` (`id`, `created_at`, `updated_at`, `photo`, `user_id`) VALUES
+(7, '2019-08-29 02:46:45', '2019-08-29 02:46:45', 'img_5d6712653fb39.jpeg', 3),
+(8, '2019-08-29 02:46:55', '2019-08-29 02:46:55', 'img_5d67126fa3bf5.jpeg', 3),
+(9, '2019-08-29 02:47:08', '2019-08-29 02:47:08', 'img_5d67127c26335.jpeg', 3),
+(10, '2019-08-29 02:47:19', '2019-08-29 02:47:19', 'img_5d6712878a911.jpeg', 3),
+(11, '2019-08-29 02:47:27', '2019-08-29 02:47:27', 'img_5d67128f122f6.jpeg', 3),
+(12, '2019-08-29 08:51:17', '2019-08-29 08:51:17', 'img_5d6767d543c31.jpeg', 1),
+(13, '2019-08-29 08:51:25', '2019-08-29 08:51:25', 'img_5d6767dd64a3c.jpeg', 1),
+(14, '2019-08-29 08:51:46', '2019-08-29 08:51:46', 'img_5d6767f2b6cf2.jpeg', 1),
+(15, '2019-08-29 08:51:58', '2019-08-29 08:51:58', 'img_5d6767fe34778.jpeg', 1),
+(16, '2019-08-29 08:52:11', '2019-08-29 08:52:11', 'img_5d67680bcba03.jpeg', 1),
+(17, '2019-08-29 09:55:22', '2019-08-29 09:55:22', 'img_5d6776da11d30.jpeg', 1),
+(18, '2019-08-29 09:55:35', '2019-08-29 09:55:35', 'img_5d6776e76fe81.jpeg', 1);
 
 -- --------------------------------------------------------
 
@@ -290,11 +306,11 @@ CREATE TABLE `subcategories` (
 --
 
 INSERT INTO `subcategories` (`id`, `name`, `created_at`, `updated_at`) VALUES
-(1, 'Salud', '2019-08-28 16:55:28', '2019-08-28 16:55:28'),
-(2, 'Estetica e higiene', '2019-08-28 16:55:28', '2019-08-28 16:55:28'),
-(3, 'Alimentos', '2019-08-28 16:55:28', '2019-08-28 16:55:28'),
-(4, 'Snacks', '2019-08-28 16:55:28', '2019-08-28 16:55:28'),
-(5, 'Accesorios', '2019-08-28 16:55:28', '2019-08-28 16:55:28');
+(1, 'Accesorios', '2019-08-29 06:50:36', '2019-08-29 06:50:36'),
+(2, 'Alimentos', '2019-08-29 06:50:36', '2019-08-29 06:50:36'),
+(3, 'Snacks', '2019-08-29 06:50:36', '2019-08-29 06:50:36'),
+(4, 'Salud', '2019-08-29 06:50:36', '2019-08-29 06:50:36'),
+(5, 'Estetica e higiene', '2019-08-29 06:50:36', '2019-08-29 06:50:36');
 
 -- --------------------------------------------------------
 
@@ -324,9 +340,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `full_name`, `country`, `state`, `username`, `shipping_address`, `email`, `email_verified_at`, `password`, `avatar`, `is_admin`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Camila Quiros', 'AR', NULL, 'camiqdsadas', NULL, 'camiq_07@hotmail.com', NULL, '$2y$10$aBrE9skWWq.eWXd7P5B/yeA5fptg/yvLjovz0VVsePEpt9xD46S9q', 'chicaCortoM.jpg', 0, NULL, '2019-08-23 07:55:07', '2019-08-23 07:55:07'),
+(1, 'Camila', 'Argentina', 'Capital Federal', 'camiqdsadas', '25 de mayo 758', 'camiq_07@hotmail.com', NULL, '$2y$10$aBrE9skWWq.eWXd7P5B/yeA5fptg/yvLjovz0VVsePEpt9xD46S9q', 'chicaCortoM.jpg', 0, NULL, '2019-08-23 07:55:07', '2019-08-29 08:52:30'),
 (2, 'Camila A. Quiros', 'AR', NULL, 'csfdsfds', NULL, 'camila.quiros.07@gmail.com', NULL, '$2y$10$lNMT/GbnMtIJ2a1crh26CeyCF8FcfGkNWxFe462Smi9Nfg7l188JO', 'chicoLargo.jpg', 0, NULL, '2019-08-24 10:07:55', '2019-08-24 10:07:55'),
-(3, 'Camila A. Quiros', 'Argentina', 'La Rioja', 'adminpatitas', NULL, 'admin@admin.com', NULL, '$2y$10$InOoy6BX.oXmxy1OppuKjeCqQpfldCqAUZH162trioBzenrPV1.6K', 'perro1.jpg', 1, NULL, '2019-08-26 07:32:38', '2019-08-27 08:43:42'),
+(3, 'Camila A. Quiros', 'Argentina', 'Salta', 'adminpatitas', '25 de Mayo 758, 8A', 'admin@admin.com', NULL, '$2y$10$InOoy6BX.oXmxy1OppuKjeCqQpfldCqAUZH162trioBzenrPV1.6K', 'perro1.jpg', 1, NULL, '2019-08-26 07:32:38', '2019-08-29 01:41:13'),
 (4, 'Camila Quiros', 'AR', '70', 'fdfdsfdsfds', NULL, 'camiq_ffdf07@hotmail.com', NULL, '$2y$10$SfPrOp7c2ckpBiN4TzsoOu6EJRq/4.TyPtYAz4h1QeTqLVZBv6gJy', 'chicoLargo.jpg', 0, NULL, '2019-08-26 23:04:47', '2019-08-26 23:04:47'),
 (5, 'Camila Quiros', 'Argentina', 'Catamarca', 'dsdadcxszs', NULL, 'camiq_07@hotmail.comdfs', NULL, '$2y$10$BJX0xwYNMUy0zcUICChiUOlrkDdB1qc5ZoBEENs/syDVDQG4c.bBS', 'perro2.jpg', 0, NULL, '2019-08-27 00:05:35', '2019-08-27 00:28:19'),
 (6, 'Administration', 'Argentina', 'Ciudad Autónoma de Buenos Aires', 'admin2019', NULL, 'administration@gmail.com', NULL, '$2y$10$GhCzXLfA63BTvwuiSbCVL.WIbZ0TNEyhbW8lCCnGwZ208SL2mgQjO', 'chicaCorto.jpg', 1, NULL, '2019-08-28 00:49:51', '2019-08-28 00:49:51'),
@@ -430,19 +446,19 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT de la tabla `favorites`
 --
 ALTER TABLE `favorites`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT de la tabla `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT de la tabla `pets`
 --
 ALTER TABLE `pets`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT de la tabla `products`
